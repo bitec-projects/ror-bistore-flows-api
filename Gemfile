@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # Gemfile
 gem "sidekiq"
-gem "redis", "~> 4.0"
+gem "redis", "~> 5.4"
 gem "dotenv-rails", groups: [ :development, :test ]
 gem "pg", ">= 1.1"
 
