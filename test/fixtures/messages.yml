@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number_id: MyString
+  remote_jid: MyString
+  from_me: false
+  msg_id: MyString
+  push_name: MyString
+  body: MyString
+  msg_type: MyString
+
+two:
+  number_id: MyString
+  remote_jid: MyString
+  from_me: false
+  msg_id: MyString
+  push_name: MyString
+  body: MyString
+  msg_type: MyString
