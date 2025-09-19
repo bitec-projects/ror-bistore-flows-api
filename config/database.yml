@@ -28,3 +28,12 @@ cable:
   host: <%= ENV["PG_HOST"] %>
   port: <%= ENV.fetch("PG_PORT", 5432) %>
 
+queue:
+  adapter: postgresql
+  encoding: unicode
+  database: <%= ENV["PG_DATABASE"] %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 10 } %>
+  username: <%= ENV["PG_USER"] %>
+  password: <%= ENV["PG_PASSWORD"] %>
+  host: <%= ENV["PG_HOST"] %>
+  port: <%= ENV.fetch("PG_PORT", 5432) %>
